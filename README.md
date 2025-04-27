@@ -1,3 +1,9 @@
+# デプロイ環境について
+## フロント
+https://meshiutchi-front.vercel.app/
+## バック
+https://meshiuchi-back.fly.dev/
+
 # 環境構築手順について
 
 ## フロント側（Nuxt.js）の環境構築手順について
