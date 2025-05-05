@@ -15,8 +15,8 @@ services:
       dockerfile: Dockerfile
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -b '0.0.0.0'"
     volumes:
-      - ./back:/app
-      - bundle:/app/vendor/bundle 
+      - ./back:/rails
+      - bundle:/usr/vendor/bundle 
     ports:
       - "3000:3000"
     depends_on:
@@ -25,6 +25,9 @@ services:
     stdin_open: true
     environment:
       - RAILS_ENV=development
+      - BUNDLE_DEPLOYMENT=
+      - BUNDLE_FROZEN=
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
   front:
     build:
       context: ./front/
