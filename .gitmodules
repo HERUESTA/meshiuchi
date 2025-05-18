@@ -1,6 +1,6 @@
 [submodule "front"]
 	path = front
-	url = git@github.com:HERUESTA/meshiutchi_front.git
+	url = git@github.com:HERUESTA/meshiuchi_front.git
 [submodule "back"]
 	path = back
 	url = git@github.com:HERUESTA/meshiuchi_back.git
