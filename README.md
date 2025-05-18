@@ -1,6 +1,6 @@
 # デプロイ環境について
 ## フロント
-https://meshiuchi-front.vercel.app/
+https://meshiutchi-front.vercel.app/
 ## バック
 https://meshiuchi-back.fly.dev/
 
